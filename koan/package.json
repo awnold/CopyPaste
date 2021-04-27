@@ -1,0 +1,59 @@
+{
+  "name": "koan",
+  "license": "MIT",
+  "description": "KOAN Stack (Koa, Angular, Node, Mongo, WebSockets) for real-time full-stack JavaScript web development.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soygul/koan.git"
+  },
+  "engines": {
+    "node": ">=7.6"
+  },
+  "author": {
+    "name": "Teoman Soygul",
+    "url": "http://soygul.com/"
+  },
+  "scripts": {
+    "start": "grunt",
+    "test": "grunt test",
+    "postinstall": "bower install",
+    "postupdate": "bower update"
+  },
+  "dependencies": {
+    "bower": "1.8.0",
+    "co-request": "1.0.0",
+    "forever": "0.15.3",
+    "grunt": "1.0.1",
+    "grunt-cli": "1.2.0",
+    "jsonwebtoken": "7.3.0",
+    "kcors": "2.2.1",
+    "koa": "2.2.0",
+    "koa-bodyparser": "4.1.0",
+    "koa-jwt": "3.0.0",
+    "koa-logger": "2.0.1",
+    "koa-route": "3.2.0",
+    "koa-send": "3.3.0",
+    "lodash": "4.17.4",
+    "mongodb": "2.2.24",
+    "ws": "2.2.1"
+  },
+  "devDependencies": {
+    "grunt-concurrent": "2.3.1",
+    "grunt-contrib-watch": "1.0.0",
+    "grunt-env": "0.4.4",
+    "grunt-karma": "2.0.0",
+    "grunt-mocha-test": "0.13.2",
+    "grunt-nodemon": "0.4.2",
+    "grunt-protractor-runner": "4.0.0",
+    "karma": "1.5.0",
+    "karma-coverage": "1.1.1",
+    "karma-jasmine": "1.1.0",
+    "karma-ng-html2js-preprocessor": "1.0.0",
+    "karma-phantomjs-launcher": "1.0.4",
+    "koa-livereload": "0.2.0",
+    "mocha": "3.2.0",
+    "phantomjs-prebuilt": "2.1.14",
+    "should": "11.2.1",
+    "supertest": "3.0.0"
+  }
+}
